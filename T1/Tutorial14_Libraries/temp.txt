@@ -1,0 +1,20 @@
+if false    : returns 0
+it true     : returns a non 0 value
+
+isalnum();  // true when char ranges from 0-9, a-z, and A-Z
+
+isdigit();  // true when char ranges from 0-9
+isxdigit(); // true when char ranges from 0-9, a-f, and A-F. Basically hexadecimal
+
+isalpha();  // true when char ranges from a-z, and A-Z 
+- islower();// true when char ranges from a-z
+- isupper();// true when char ranges from A-Z
+
+isspace();  // true when char is a space. note: \t \r \n also works works but \b doesnt
+ispunct();  // self explanatory
+
+iscntrl();  //identifies the control characters(\n, \b, \t, \r).
+isprint();  //basically the oppos   ite of iscntrl since control characters cant be printed
+
+tolower();  //turns an alphabetical character to its lowercase counterpart
+toupper();  //turns an alphabetical character to its uppercase counterpart
